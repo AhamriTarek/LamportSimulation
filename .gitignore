@@ -1,0 +1,10 @@
+# Compiled Java class files
+bin/
+*.class
+
+# Logs
+*.log
+
+# OS / IDE cruft
+.DS_Store
+Thumbs.db
