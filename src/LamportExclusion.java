@@ -216,6 +216,7 @@ class Processus extends Thread {
 
 public class LamportExclusion {
     public static void main(String[] args) throws InterruptedException {
+        // modified by Driss
         List<Processus> processus = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             processus.add(new Processus(i));
